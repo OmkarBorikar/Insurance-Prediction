@@ -41,7 +41,9 @@ for each observation -
 
 This app is deployed on streamlit share and can be run from here - [Insurance Predictor](https://share.streamlit.io/omkarborikar/insurance-prediction/main/app.py)
 
-home screen image
+After clicking on above link below page will open -
+
+![image](https://user-images.githubusercontent.com/82905366/143280580-cd9b74e9-3999-49bf-944c-8021e5af61c4.png)
 
 Following are the constraints on input data - 
 
@@ -50,12 +52,17 @@ Following are the constraints on input data -
     Number of childrens can be entered from 0 - 5
 
     BMI can be entered between 14.00 - 55.00
-    
-Output image here
+
+After clicking on 'Predict Insurance cost' button output can be seen as follows -
+
+![image](https://user-images.githubusercontent.com/82905366/143280870-b9a26053-5266-4389-8b30-190e4f9f275e.png)
 
 * **Approach** 
 
-The Notebook contains detailed Analysis of each feature and its correlation with the target feature and other features.
+The Notebook contains detailed Analysis of each feature and its correlation with the target feature and other features, glimpse of which can be seen below -
+
+![image](https://user-images.githubusercontent.com/82905366/143281512-cb09202b-7ff5-4858-85c8-a8f274f27115.png)
+
 
 I have tried carious Machine Learning models for this regression problem, such as LinearRegression, RandomForest, XGBoost, CatbBoost, LightGBM and Decision Tree.
 
