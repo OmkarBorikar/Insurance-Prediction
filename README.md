@@ -64,7 +64,7 @@ The Notebook contains detailed Analysis of each feature and its correlation with
 ![image](https://user-images.githubusercontent.com/82905366/143281512-cb09202b-7ff5-4858-85c8-a8f274f27115.png)
 
 
-I have tried carious Machine Learning models for this regression problem, such as LinearRegression, RandomForest, XGBoost, CatbBoost, LightGBM and Decision Tree.
+I have tried various Machine Learning models for this regression problem, such as LinearRegression, RandomForest, XGBoost, CatbBoost, LightGBM and Decision Tree.
 
 Catbbost, XGBoost and RandomForest were predicting with high accuracy, so i have tuned their hyperparameter using OPTUNA and blended 3 of them using Weighted 
 average sum. I have got o.90% accuracy (R2_Score) with this approach. In future i am planning to add visyalization dashboard to this project and to acheive better
