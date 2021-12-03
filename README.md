@@ -2,7 +2,7 @@
 
 * **Overview of project**
 
-This web app is the simplified prototype of application that can be used in Insurance provider company to predict the medical cost they might nead to bear 
+This web app is the simplified prototype of application that can be used in Insurance provider company to predict the medical cost they might need to bear 
 given the customers details like Age, Sex, is he/she smoker or not, number of childrens they have etc.
 
 * **Libraries and Tools Used**
@@ -66,7 +66,7 @@ The Notebook contains detailed Analysis of each feature and its correlation with
 
 I have tried various Machine Learning models for this regression problem, such as LinearRegression, RandomForest, XGBoost, CatbBoost, LightGBM and Decision Tree.
 
-Catbbost, XGBoost and RandomForest were predicting with high accuracy, so i have tuned their hyperparameter using OPTUNA and blended 3 of them using Weighted 
-average sum. I have got o.90% accuracy (R2_Score) with this approach. In future i am planning to add visyalization dashboard to this project and to acheive better
+Catbbost, XGBoost and RandomForest were predicting with high accuracy, so i have tuned their hyperparameter using OPTUNA and blended 3 models using Weighted 
+average sum. Acheived 90% accuracy (R2_Score) with this approach. In future i am planning to add visualization dashboard to this project and to acheive better
 accuracy also.
 
